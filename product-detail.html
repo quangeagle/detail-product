@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
+
+</head>
+<body>
+  <!--=========HEADER========-->
+  <!-- Nav by quangeagle -->
+  <header id="header">
+    <div  class="main-content">
+         <!-- lề trái -->
+        <div class="aside-left">
+            <a class="logo_convers" style="align-items:center;">
+                <img src="assets/img/store-giay.png" alt="converse" />
+            </a>
+        </div>
+        <!-- menu giữa -->
+        <div class="menu-nav">
+            <ul>
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#">Giày</a></li>
+                <li><a href="#">Convers</a></li>
+                <li><a href="#">Vans</a></li>
+                <li><a href="#">Hot Sale</a></li>
+                <li  class="dropdown" ><a href="#">Blog <i class="fa-solid fa-chevron-down"></i></a>
+                    
+                    <div class="drop-down">
+                        <ul class="dropdown-content">
+                            <li><a href="#">Thời Trang</a></li>
+                            <li><a href="#">Life Style</a></li>
+                            <li><a href="#">Du Lịch</a></li>
+                        </ul>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
+        <!-- lề phải -->
+        <div class="aside-right">
+            <ul>
+                <li class="magnifying"><a href="#"><i class="fa-solid fa-magnifying-glass"style="color: #ebebeb;margin-right: 5px;"></i></a>
+                    
+                </li>
+                <li class="heart">
+                    <div>
+                        <a href="#"><i class="fa-regular fa-heart" style="color: #ebebeb;"></i></a>
+                    </div>
+                </li>
+                <li><i class="ti-user"></i></li>
+                <li>
+                    <a href="#"> <i class="fa-solid fa-cart-shopping"style="color: #ebebeb;"></i> </a>
+                </li>
+                <li style="color:aliceblue;font-size: 20px;">
+                    <p>0/0d</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+   
+
+  </header>
+  <!--=========HOME========-->
+  <!-- Product by quangeagle and Tung -->
+  <main id="home">
+   
+    <div class="top1">
+     <div>
+      HÀNG CÓ SẴN CHÍNH HÃNG
+     </div>
+     <div>
+     ĐỔI TRẢ LINH HOẠT
+     </div>
+     <div>
+     SHIP HÀNG TOÀN QUỐC
+     </div>
+    </div>
+    <div class="top2">
+        <i class="fa-sharp fa-light fa-arrow-turn-down-left"></i>
+        
+    </div>
+    <div class="product">
+      <div class="product-price">
+       <div class="img-mini">
+        <div>
+           <img src="assets/img/z4695858391690_3ce0d0da7433b0d9591666ca42d27140-1-600x600.jpg">
+        </div>
+        <div>
+         <img src="assets/img/z4695858391690_3ce0d0da7433b0d9591666ca42d27140-1-600x600.jpg">
+        </div>
+        <div>
+            <img src="assets/img/z4695784859484_4e2f62a5bbb0001ebf36406a0f04d2ee-600x800.jpg">
+        </div>
+       </div>
+       <div class="img-detail">
+        <img src="assets/img/z4695784859484_4e2f62a5bbb0001ebf36406a0f04d2ee-600x800.jpg">
+       </div>
+       <div class="price">
+        <h1>Run star HIKE low black white</h1><br>
+        <div class="price-item">
+            <span>
+                2.800.000đ
+            </span> 
+            <span>
+                1.100.000đ 
+            </span>
+            <span>
+                Mã SP:N/A
+            </span>
+        </div>
+        <div>
+            <form>
+                <label for="shoe-size">SIZE :</label>
+                <select id="shoe-size" name="shoe-size">
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                </select>
+            </form>
+        </div>
+        <div class="soluong">
+            <span class="minus">-</span>
+            <input type="text" value="1"/>
+            <span class="plus">+</span>
+           <a href="#"><button>Thêm Vào Giỏ</button></a> 
+        </div>
+        <div class="detail">
+            <div>
+                <a>
+                 <img src="assets/img/heart (1).png">
+                <span>Cho vào yêu thích</span>
+                </a>
+              </div>
+              <div>
+                <a>
+                <img src="assets/img/right-and-left.png">
+                 <span>So sánh</span>
+                 </a>
+              </div>
+              <div>
+                <a>
+                    <img src="assets/img/ruler.png">
+                   <span>Size Guide</span>
+                   </a>
+              </div>
+              <div>
+               <p> <span>Mã SP:</span>N/A </p></br>
+               <p> <span>Thể Loại:</span>Converse,Giày </p>
+              </div>
+              <div>
+                <span>Share:</span>
+                <img src="assets/img/fb.png">
+                <img src="assets/img/instagram.png">
+                <img src="assets/img/shopee.jpg">
+              </div>
+        </div>
+       </div>
+      </div>
+      <div class="product-detail">
+       <div class="menu1">
+        <ul>
+            <li><a href="#" onclick="showInfo(1);">Mô Tả</a></li>
+            <li><a href="#"onclick="showInfo(2);">Thông Tin Bổ Sung</a></li>
+            <li><a href="#"onclick="showInfo(3);">Đánh Giá</a></li>
+             <li><a href="#"onclick="showInfo(4);">Vận Chuyển & Giao Hàng</a></li>
+        </ul>
+       </div>
+       <div class="menu">
+        <div id="info1"> 
+            <div class="detail-product">
+            <div class="tieude">
+                <h2 class="mota">
+                Mô tả
+                </h2>
+            </div>
+            <div class="mieuta">
+            <h3 class="motasanpham">
+                Mô Tả Sản Phẩm: Converse Run Star Hike Low Black White
+            </h3>
+            </div>
+            <div class="tongquan">
+                 <p>
+                <strong>
+                    1. Tổng Quan:
+                </strong>
+                Converse Run Star Hike Low Black White là một đôi giày thể thao unisex mang phong cách hiện đại và độc đáo. Với sự kết hợp tinh tế giữa màu đen và trắng, đôi giày này không chỉ thể hiện sự tinh tế mà còn mang đến sự thoải mái cho người đeo.
+            </p>
+            </div>
+            <div class="dacdiem">
+                <p>
+                <strong>
+                    2. Đặc Điểm Nổi Bật:
+                </strong>
+            </p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <strong>Thiết Kế Độc Đáo:</strong>
+                        Đôi giày sở hữu thiết kế độc đáo với đế cao su dày, mang đến một phong cách thời trang đường phố đặc trưng.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <strong>Chất Liệu Cao Cấp:</strong>
+                        Được làm từ chất liệu vải canvas cao cấp, kết hợp với đế cao su bền bỉ, đem lại cảm giác thoải mái và bền lâu.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <strong>Màu Sắc Tinh Tế:</strong>
+                        Sự kết hợp giữa màu đen và trắng tạo nên một vẻ ngoài tinh tế, dễ dàng kết hợp với nhiều trang phục khác nhau.
+                    </li>
+                </ul>
+           
+            </div>  
+            <div class="ungdung">
+                 <p>
+                <strong>
+                    3. Ứng Dụng:
+                </strong>
+            </p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <strong>Đa Năng:</strong>
+                        Phù hợp cho cả nam và nữ, có thể kết hợp với nhiều loại trang phục từ casual đến sporty.
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <strong>Thoải Mái:</strong>
+                        Đế giày được thiết kế để mang lại sự thoải mái tối đa, thích hợp cho cả việc đi chơi lẫn vận động nhẹ.
+                    </li>
+                </ul>
+           
+            </div>    
+            <div class="baoduong">
+                 <p>
+                <strong>
+                    4. Bảo Dưỡng và Chăm Sóc:
+                </strong>
+            </p>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Để bảo dưỡng đôi giày, bạn nên tránh tiếp xúc trực tiếp với nước và chất làm bẩn.
+                     </li>
+                     <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Để giữ form giày, nên sử dụng các dụng cụ giữ form khi không sử dụng.
+                     </li>
+                     <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Để làm sạch, sử dụng chất làm sạch dành riêng cho giày và làm sạch theo hướng dẫn của nhà sản xuất.
+                     </li>
+                    </ul>
+            </div>             
+           </div>
+        </div>
+            <div id="info2"style="display: none;"> 
+            <div>
+             <h2>Thông tin bổ sung</h2>
+             <table>
+                <tr>
+                    <th> Size </th>
+                    <td> 36,37,38,39</td>
+                </tr>
+             </table>
+            </div>
+            </div>
+            <div id="info3"style="display: none;"> 
+            3
+            </div>
+            <div id="info4"style="display: none;"> 
+             4
+          </div>
+        </div>
+       
+    </div>
+    <div class="other-product">
+     <h2>SẢN PHẨM TƯƠNG TỰ</h2>
+     <div class="slider-contener"> 
+        <div class="other-product2">
+           <div class="news-item">
+                <div class="item_tag">
+                    <!-- <img class="tag-size" src="8.png" alt=""> -->
+                </div>
+                <div class="item-img">
+                    <img src="assets/img/1970s-navy-1-600x600.png" alt="">
+                </div>   
+                <div class="sale">
+                  <a href="#"> Sale Hot,Convere</a> 
+                </div>     
+                <div class="item">
+                  <a href="#">Chuck 70s High NaVi</a>  
+                </div>
+                <div class="price">
+                    <span class="old-price">
+                    1,700,000đ
+                    </span>
+                    <span class="new-price">
+                     950,000₫
+                    </span>
+                </div>
+            </div> 
+            <!--  -->
+            <div class="news-item">
+                <div class="item_tag">
+                    <!-- <img class="tag-size" src="8.png" alt=""> -->
+                </div>
+                <div class="item-img">
+                    <img src="assets/img/1970s-navy-1-600x600.png" alt="">
+                </div>   
+                <div class="sale">
+                  <a href="#"> Sale Hot,Convere</a> 
+                </div>     
+                <div class="item">
+                  <a href="#">Chuck 70s High NaVi</a>  
+                </div>
+                <div class="price">
+                    <span class="old-price">
+                    1,700,000đ
+                    </span>
+                    <span class="new-price">
+                     950,000₫
+                    </span>
+                </div>
+            </div> 
+            <!--  -->
+            <div class="news-item">
+                <div class="item_tag">
+                    <!-- <img class="tag-size" src="8.png" alt=""> -->
+                </div>
+                <div class="item-img">
+                    <img src="assets/img/1970s-navy-1-600x600.png" alt="">
+                </div>   
+                <div class="sale">
+                  <a href="#"> Sale Hot,Convere</a> 
+                </div>     
+                <div class="item">
+                  <a href="#">Chuck 70s High NaVi</a>  
+                </div>
+                <div class="price">
+                    <span class="old-price">
+                    1,700,000đ
+                    </span>
+                    <span class="new-price">
+                     950,000₫
+                    </span>
+                </div>
+            </div> 
+            <!--  -->
+            <div class="news-item">
+                <div class="item_tag">
+                    <!-- <img class="tag-size" src="8.png" alt=""> -->
+                </div>
+                <div class="item-img">
+                    <img src="assets/img/1-13-768x768 (1).jpg" alt="">
+                </div>   
+                <div class="sale">
+                   <a href="#">Sale Hot,Convere</a> 
+                </div>   
+                <div class="item">
+                   <a href="#">Chuck 70s High ALLWHITE</a> 
+                </div>
+                <div class="price">
+                    <span class="old-price">
+                      1,700,000đ
+                    </span>
+                    <span class="new-price">
+                      990,000₫
+                    </span>
+                </div>
+            </div>        
+       
+        <!--  -->
+       <div class="news-item">
+            <div class="item_tag">
+                <!-- <img class="tag-size" src="8.png" alt=""> -->
+            </div>
+            <div class="item-img">
+                <img src="assets/img/1-14-768x768.jpg" alt="">
+            </div> 
+            <div class="sale">
+               <a href="#">Sale Hot,Convere</a>
+            </div>   
+            <div class="item">
+               <a href="#"> Chuck 70s Vàng Cao</a>
+            </div>
+            <div class="price">
+                <span class="old-price">
+                1,700,000đ
+                </span>
+                <span class="new-price">
+                   950,000₫
+                </span>
+            </div>
+        </div>  
+              <!--  -->
+        <div class="news-item">
+            <div class="item_tag">
+                <!-- <img class="tag-size" src="8.png" alt=""> -->
+            </div>
+            <div class="item-img">
+                <img src="assets/img/1-16-768x768.jpg" alt="">
+            </div>  
+            <div class="sale">
+               <a href="#"> Sale Hot,Convere</a>
+            </div>      
+            <div class="item">
+               <a href="#">Converse Chuck 70s Low Sunflower</a> 
+            </div>
+            <div class="price">
+                <span class="old-price">
+                 1,700,000đ
+                </span>
+                <span class="new-price">
+                  900,000₫
+                </span>
+            </div>
+        </div>   
+             <!--  -->
+     </div>
+     <button id="prevButton">&#8592;</button>
+        <button id="nextButton">&#8594;</button>
+     </div>
+     
+    </div>
+  </main>
+  <!--=========FOOTER========-->
+  <footer id="footer"></footer>
+   <!-- Footer -->
+  
+   <div class="footer-cointaner">
+       <div class="footer1">
+           <div class="menu">
+               <ul>
+                   <li>                   
+                        <a href="#" >MUA HÀNG</a>      
+                        </li>
+                   <li>                   
+                       <a href="#" >ĐỔI TRẢ</a>      
+                       </li>
+                   <li>                   
+                      <a href="#" >SHIP HÀNG</a>      
+                       </li>
+                   <li>                   
+                       <a href="#" >THANH TOÁN</a>      
+                       </li>
+                   <li>                   
+                       <a href="#" >SIZE GUIDE</a>      
+                       </li>
+                    <li>                   
+                       <a href="#" >CÁCH CHECK CODE</a>      
+                       </li>
+               </ul>            
+               <ul class="media-list">
+                   <li>
+                       <a target="_blank" rel="nofollow noopener" href="https://conversestore.vn/#">
+                       <img src="assets/img/fb.png" title="FaceBook">
+                       <span>FACEBOOK</span>
+                    </a>
+                   </li>
+                   <li>
+                       <a target="_blank" rel="nofollow noopener" href="https://www.instagram.com/converse.store_/">
+                       <img src="assets/img/instagram.png" title="instagram">
+                       <span>INSTAGRAM</span>
+                    </a>
+                   </li>
+                   <li>
+                       <a target="_blank" rel="nofollow noopener" href="https://shopee.vn/conver.se">
+                       <img src="assets/img/shopee.jpg" title="shopee">
+                       <span>SHOPPE</span>
+                    </a>
+                   </li>
+               </ul>
+           </div>
+       </div>
+       <div class="footer2">
+           <ul class="menu category-product">               
+               <li>
+                   <a href="#">GIÀY</a>
+               </li>
+               <li>
+                   <a href="#">ÁO</a>
+               </li>
+               <li>
+                   <a href="#">SALE</a>
+               </li>
+               <li>
+                   <a href="#">NAM</a>
+               </li>
+               <li>
+                   <a href="#">NỮ</a>
+               </li>
+               <li>
+                   <a href="#">CONVERSE</a>
+               </li>
+               <li>
+                   <a href="#">VANS</a>
+               </li>
+           </ul>
+       </div>
+       <div class="footer3">
+           <div class="footer-widget">
+               <h3 class="widget-title">CONVERSE.STORE_</h3>
+                   <div class="textwidget">
+                       <div class="info-store">
+                           <p>
+                               CỬA HÀNG                     
+                           <br>
+                           Số 8. Nguyễn Hoàng Tôn
+                           <br>
+                           Xuân La,Tây Hồ,Hà Nội 
+                           </p>
+                           <a href="https://conversestore.vn/tel:0866866368">+84 866.866.368</a>
+                       </div>
+                       <ul class="blog">
+                           <li>
+                               <a href="https://conversestore.vn/blog/">BLOG</a>
+                           </li>
+                       </ul>
+                   </div>
+            </div> 
+         </div>
+           <div class="footer4">
+               <div class="p">
+                   <p>NHẬN ƯU ĐÃI TỪ CỬA HÀNG</p>
+               </div> 
+               <div >
+                <form class="form1">
+                    <input type="email" id="email" name="email">
+                  </form>
+               </div>  
+               <div >
+                <button class="button">
+                    NHẬN NGAY
+                </button>
+               </div>  
+           </div>
+       </div>
+     <p class="ads">
+        Copyright 2023. Converse.Store_
+        </p>
+        <script src="assets/product.js"></script>
+</body>
+</html>
